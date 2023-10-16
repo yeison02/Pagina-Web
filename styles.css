@@ -2,38 +2,32 @@
 * {
   box-sizing: border-box;
   font-family: "Nunito", sans-serif;
-  font-size: 15px;
+  line-height: 1.5;
+}
+body{
   margin: 0;
-  padding: 0;
 }
 
 .header {
   background-color: #deb887;
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  height: 85px;
-  padding: 5px 10%;
-}
-
-.header .logo {
-  transition: all 0.3s;
-  cursor: pointer;
-  order: 3;
-  margin: auto;
-}
-
-.header .logo:hover {
-  transform: scale(1.2);
-}
+  
+  padding: 7px;
+ 
+ }
+ nav{
+  margin-left: auto;
+ }
+ 
 
 .header .links {
   list-style: none;
+  align-items: center;
 }
 
 .header .links li {
   display: inline-block;
-  padding: 0 20px;
+  padding: 0 10px;
 }
 
 .header .links li:hover {
@@ -49,7 +43,7 @@
   color: #f0f8ff;
 }
 
-.header .bt .list {
+.list {
   list-style-type: "✅";
 }
 
@@ -63,7 +57,47 @@ h1 {
 }
 
 hr {
-  border-top: 5px double rgb(247, 126, 14);
-  width: 90%;
-  margin: auto;
+  border-top: 1px solid rgb(247, 126, 14);
+  width: 70%;
+
 }
+
+aside {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  margin: 3%;
+}
+
+#sinopsis {
+  font-size: 18px;
+  margin: 0 0 10px; 
+}
+
+small p u em {
+  font-style: italic;
+  color: #ff8000;
+  text-decoration: underline;
+  
+}
+
+
+.footer {
+  background-color: #333; 
+  color: #fff;
+  padding: 20px 0; 
+  text-align: center; 
+}
+
+.footer-content {
+  max-width: 960px; 
+}
+
+
+.footer p {
+  margin: 0; 
+  font-size: 14px;
+}
+
+
