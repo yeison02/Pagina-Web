@@ -1,35 +1,69 @@
-html {
-  font-family: Helvetica, Arial, sans-serif;
-  }
-
-
-.list{
-  list-style-type:'✅';
-  
- 
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;1,700&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
 }
-  
 
+.header {
+  background-color: #deb887;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 85px;
+  padding: 5px 10%;
+}
 
-.img {
-  width: 50px;
-  float: right;
+.header .logo {
+  transition: all 0.3s;
+  cursor: pointer;
+  order: 3;
+  margin: auto;
+}
+
+.header .logo:hover {
+  transform: scale(1.2);
+}
+
+.header .links {
+  list-style: none;
+}
+
+.header .links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.header .links li:hover {
+  transform: scale(1.1);
+}
+
+.header .links a {
+  color: #fff8dc;
+  text-decoration: none;
+
+}
+.header .links li a:hover {
+  color: #f0f8ff;
+}
+
+.header .bt .list {
+  list-style-type: "✅";
 }
 
 .title {
-  font-size: 70px;
+  font-size: 50px;
   font-weight: bold;
   font-style: italic;
 }
 h1 {
-
   text-align: center;
 }
 
 hr {
-  
   border-top: 5px double rgb(247, 126, 14);
-  width: 95%;
+  width: 90%;
+  margin: auto;
 }
-
- 
