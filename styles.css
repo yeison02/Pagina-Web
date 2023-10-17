@@ -10,7 +10,7 @@ body{
 }
 
 .header {
-  background-color: #deb887;
+  background-color:#ffa500;
   display: flex;
   
   padding: 7px;
@@ -49,16 +49,17 @@ body{
 }
 
 .title {
-  font-size: 50px;
+  font-size: 80px;
   font-weight: bold;
   font-style: italic;
 }
 h1 {
   text-align: center;
+  
 }
 
 hr {
-  border-top: 1px solid rgb(247, 126, 14);
+  border-top: 1px solid #ff8c00;
   width: 70%;
 
 }
@@ -68,7 +69,9 @@ aside {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 15px;
-  margin: 3%;
+  margin: 2%;
+  width: 60%;
+  
 }
 
 #sinopsis {
@@ -114,6 +117,7 @@ h5{
 
 .contenedor{
   text-align: center;
+  margin-top: 30px;
 }
 
 .contenedor img{
@@ -132,3 +136,37 @@ h5{
   height: 335px;
 }
 
+
+
+  table {
+    width: 95%; 
+    border-collapse: collapse;
+    border: 1px solid #ff8c00;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  td {
+    padding: 15px; 
+    border: 1px solid #ff8c00;
+  }
+
+  th{
+    background-color:#ffa500;
+    color: #f0f8ff;
+  }
+#prevencion{
+  margin-top: 40PX;
+}
+
+#importancia{
+  margin-top: 40px;
+}
+#consejos{
+  margin-top: 40px;
+}
+
+#lesiones{
+  margin-top: 40px;
+}
