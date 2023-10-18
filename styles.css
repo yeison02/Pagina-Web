@@ -3,27 +3,25 @@
   box-sizing: border-box;
   font-family: "Nunito", sans-serif;
   line-height: 1.5;
-
 }
-body{
+body {
   margin: 0;
 }
 
 .header {
-  background-color:#ffa500;
+  background-color: #FFA936;
   display: flex;
-  
+
   padding: 7px;
- 
- }
- nav{
+}
+nav {
   margin-left: auto;
- }
- 
+}
 
 .header .links {
   list-style: none;
   align-items: center;
+  
 }
 
 .header .links li {
@@ -38,7 +36,6 @@ body{
 .header .links a {
   color: #fff8dc;
   text-decoration: none;
-
 }
 .header .links li a:hover {
   color: #f0f8ff;
@@ -55,13 +52,11 @@ body{
 }
 h1 {
   text-align: center;
-  
 }
 
 hr {
   border-top: 1px solid #ff8c00;
   width: 70%;
-
 }
 
 aside {
@@ -71,103 +66,110 @@ aside {
   border-radius: 15px;
   margin: 2%;
   width: 60%;
-  
 }
 
 #sinopsis {
   font-size: 18px;
-  margin: 0 0 10px; 
+  margin: 0 0 10px;
 }
 
 small p u em {
   font-style: italic;
   color: #ff8000;
   text-decoration: underline;
-  
 }
 
-
 .footer {
-  background-color: #333; 
+  background-color: #333;
   color: #fff;
-  text-align: center; 
-  padding: 10px 0; 
+  text-align: center;
+  padding: 10px 0;
 }
 
 .footer-content {
-  max-width: 960px; 
- margin: 0 auto;
+  max-width: 960px;
+  margin: 0 auto;
 }
-
 
 .footer p {
-  margin: 0; 
+  margin: 0;
   font-size: 14px;
 }
-p{
+p {
   margin-left: 15px;
 }
 
 h2,
 h3,
 h4,
-h5{
+h5 {
   margin-left: 15px;
 }
 
-.contenedor{
+.contenedor {
   text-align: center;
   margin-top: 30px;
 }
 
-.contenedor img{
+.contenedor img {
   display: block;
   margin: 0 auto;
   height: 100px;
   width: 100px;
   border-radius: 50%;
 }
-.div1{
+.div1 {
   float: left;
   margin-right: 20px;
   margin-left: 15px;
 }
-.div1 img{
+.div1 img {
   height: 335px;
 }
 
-
-
-  table {
-    width: 95%; 
-    border-collapse: collapse;
-    border: 1px solid #ff8c00;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  td {
-    padding: 15px; 
-    border: 1px solid #ff8c00;
-  }
-
-  th{
-    background-color:#ffa500;
-    color: #f0f8ff;
-  }
-#prevencion{
-  margin-top: 40PX;
+table {
+  width: 95%;
+  border-collapse: collapse;
+  border: 1px solid #ff8c00;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#importancia{
-  margin-top: 40px;
+td {
+  padding: 15px;
+  border: 1px solid #ff8c00;
 }
-#consejos{
+
+th {
+  background-color: #ffa500;
+  color: #f0f8ff;
+}
+#prevencion {
   margin-top: 40px;
 }
 
-#lesiones{
+#importancia {
+  margin-top: 40px;
+}
+#consejos {
   margin-top: 40px;
 }
 
+#lesiones {
+  margin-top: 40px;
+}
+
+#gotop {
+  background-color: #FFDB54;
+  border: 1px solid #FFD154;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  position: fixed;
+  right: 10px;
+  bottom: 130px;
+  cursor: pointer;
+  bottom: -10px;
+  transition: botton 0.5s;
+}
