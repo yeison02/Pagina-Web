@@ -3,6 +3,7 @@
   box-sizing: border-box;
   font-family: "Nunito", sans-serif;
   line-height: 1.5;
+  font-size: 16px;
 }
 body {
   margin: 0;
@@ -11,7 +12,6 @@ body {
 .header {
   background-color: #FFA936;
   display: flex;
-
   padding: 7px;
 }
 nav {
@@ -46,7 +46,7 @@ nav {
 }
 
 .title {
-  font-size: 80px;
+  font-size: 50px;
   font-weight: bold;
   font-style: italic;
 }
@@ -168,8 +168,18 @@ th {
   width: 35px;
   position: fixed;
   right: 10px;
-  bottom: 130px;
+  bottom: 140px;
   cursor: pointer;
   bottom: -10px;
   transition: botton 0.5s;
 }
+
+.imagen{
+  height: 40%;
+  width: 30%;
+  padding-top: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+
