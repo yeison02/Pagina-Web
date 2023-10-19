@@ -171,13 +171,14 @@ th {
   bottom: 140px;
   cursor: pointer;
   bottom: -10px;
-  transition: botton 0.5s;
+  transition: botton 0.10s;
 }
 
 .imagen{
   height: 40%;
   width: 30%;
   padding-top: 20px;
+  padding-bottom: 20px;
   display: block;
   margin: 0 auto;
 }
