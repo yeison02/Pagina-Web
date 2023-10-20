@@ -24,7 +24,5 @@ Puedes acceder a la página web en [La importancia de la higiene postural](http:
 
 ## Información Adicional
 
-Si tienes alguna pregunta o sugerencia, no dudes en contactarme a través de [yeison.suarezt@gmail.com](yeison.suarezt@gmail.com).
-
 ¡Gracias por tu interés en la higiene postural!
 
